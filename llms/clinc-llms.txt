@@ -1,0 +1,27 @@
+# Clinc
+
+> Clinc is a conversational AI platform for banking and financial services, delivering Natural Language Understanding (NLU), Natural Language Processing (NLP), and Natural Language Generation (NLG) so institutions can build virtual assistants and chatbots. Founded 2015 in Ann Arbor, Michigan; deployed with customers including USAA, Ford, Barclays, and İşbank; backed by Insight Partners, Drive Capital, and eLab Ventures.
+
+## Notice
+
+- Clinc's public developer surface (clinc.com and api.clinc.com) is offline as of 2026-07-18: the clinc.com AWS Route53 delegation is dangling and the authoritative nameservers return REFUSED, so the domain resolves SERVFAIL everywhere. The URLs below are the genuine published locations and are recoverable via the Internet Archive.
+
+## Documentation
+
+- [Clinc Knowledge-Base — Platform Reference](https://api.clinc.com/platform/documentation/v2/platform_reference/): Conceptual and practical reference for the Clinc AI Platform (NLU/NLP/NLG, ASR/TTS-agnostic query pipeline, responses, integrations).
+- [Starter Guide](https://api.clinc.com/platform/documentation/v2/starter_guide/): Hands-on guide to build a financial assistant end-to-end.
+- [Integration Suite](https://api.clinc.com/platform/documentation/v2/platform_reference/integration_suite.html): Configure integrations against an AI Version.
+- [Q2 channel integration](https://api.clinc.com/platform/documentation/v2/platform_reference/q2.html)
+- [LivePerson channel integration](https://api.clinc.com/platform/documentation/v2/platform_reference/live_person.html)
+
+## Code
+
+- [github.com/clinc](https://github.com/clinc): Clinc Inc's GitHub organization (17 public repositories).
+- [oos-eval (CLINC150)](https://github.com/clinc/oos-eval): Evaluation dataset for intent classification and out-of-scope prediction.
+- [business-logic-server-template](https://github.com/clinc/business-logic-server-template): Template server for business-logic integration with the Clinc AI platform.
+- [@clinc/clui](https://www.npmjs.com/package/@clinc/clui): Clinc Inc's UI component library (npm).
+
+## Company
+
+- [Website](https://clinc.com/) (currently offline)
+- [About](https://clinc.com/about-us/) (currently offline)

@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/@clinc/clui
+notes: >-
+  Clinc publishes a first-party client-side UI component library, @clinc/clui
+  ("A UI Component Library by Clinc Inc"), on npm. It is distinct from a server-
+  side API SDK; it provides embeddable conversational-UI building blocks for
+  surfacing the Clinc AI Platform in web front-ends. No hosted/prebuilt loader
+  script or CDN embed was found published; the library is consumed via npm.
+families:
+  - family: clui
+    kind: web-ui-components
+    package: "@clinc/clui"
+    registry: npm
+    url: https://www.npmjs.com/package/@clinc/clui
+    version: 0.60.0
+    description: Clinc Inc's conversational UI component library.
+    official: true

@@ -1,19 +1,56 @@
 aid: clinc
 name: Clinc
-description: Clinc is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Clinc is a conversational AI platform for banking and financial services,
+  founded in 2015 in Ann Arbor, Michigan. It provides the Natural Language
+  Understanding (NLU), Natural Language Processing (NLP), and Natural Language
+  Generation (NLG) engine behind virtual assistants and chatbots, and is
+  ASR/TTS-agnostic so it can be connected to phone, mobile, web, or smart-speaker
+  devices. Once a user utterance is converted to text, Clinc's AI engine
+  interprets intent and calls the appropriate third-party systems (such as an
+  external database) to answer or carry out an action. Clinc has been deployed
+  with customers including USAA, Ford, Barclays, and İşbank, and is backed by
+  Insight Partners, Drive Capital, and eLab Ventures. NOTE — Clinc's public
+  developer surface (clinc.com and api.clinc.com) is offline as of 2026-07-18:
+  the clinc.com AWS Route53 delegation is dangling and its authoritative
+  nameservers return REFUSED, so the domain resolves SERVFAIL everywhere. The
+  documentation and API URLs recorded here are the genuine published locations,
+  recoverable via the Internet Archive.
 url: https://raw.githubusercontent.com/api-evangelist/clinc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/12968087?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: web-surface-offline
+x-status-note: >-
+  clinc.com and api.clinc.com resolve SERVFAIL as of 2026-07-18 (dangling AWS
+  Route53 delegation; authoritative nameservers REFUSED).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Conversational AI
+- Natural Language Processing
+- Virtual Assistant
+- Banking
+- Financial Services
+- Chatbot
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +60,20 @@ maintainers:
 common:
 - type: Website
   url: https://clinc.com/
+- type: Documentation
+  url: https://api.clinc.com/platform/documentation/v2/platform_reference/
+- type: GettingStarted
+  url: https://api.clinc.com/platform/documentation/v2/starter_guide/
+- type: GitHubOrganization
+  url: https://github.com/clinc
+- type: Packages
+  url: packages/clinc-packages.yml
+- type: Components
+  url: components/clinc-components.yml
+- type: LLMsTxt
+  url: llms/clinc-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

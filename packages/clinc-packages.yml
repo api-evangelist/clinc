@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/@clinc/clui
+notes: >-
+  Registry sweep (npm, PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems,
+  Packagist, crates.io) for first-party Clinc client libraries. Only one
+  first-party package was found: @clinc/clui, Clinc Inc's UI component library.
+  The bare npm "clinc" (a GRBL CLI by chrisallenlane) and PyPI "clinc" (a cell-
+  lineage research package by Caleb Weinreb) are unrelated third parties and are
+  excluded. Clinc publishes no first-party server-side API client SDK; the
+  documented integration path is a business-logic server (see
+  https://github.com/clinc/business-logic-server-template). Clinc's public
+  developer surface (clinc.com / api.clinc.com) is offline as of 2026-07-18
+  (dangling AWS Route53 delegation, authoritative nameservers REFUSED).
+packages:
+  - language: javascript
+    registry: npm
+    name: "@clinc/clui"
+    url: https://www.npmjs.com/package/@clinc/clui
+    install: npm install @clinc/clui
+    version: 0.60.0
+    published: '2018-10-04'
+    last_modified: '2022-04-04'
+    description: A UI Component Library by Clinc Inc.
+    official: true
+    kind: ui-components
